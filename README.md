@@ -1,8 +1,14 @@
-# 🚀 K8s Disaster Recovery - Creative Kestra Workflow
+# ☸️ Kubernetes Disaster Recovery Kestra Workflow
 
-A **single, powerful Kestra workflow** that provides complete Kubernetes disaster recovery capabilities with an elegant design.
 
-## 🌟 What Makes This Creative?
+
+A **powerful Kestra workflow** that provides complete Kubernetes disaster recovery capabilities with an elegant design.
+
+[![Kestra](https://img.shields.io/badge/Kestra-Workflow-blue)](https://kestra.io)
+[![Kubernetes](https://img.shields.io/badge/Platform-Kubernetes-326CE5)](https://kubernetes.io)
+[![Google Cloud](https://img.shields.io/badge/Cloud-GCP-4285F4)](https://cloud.google.com)
+
+## 💡 What Makes This Creative?
 
 This innovative workflow combines **5 different DR operations** into one smart workflow using Kestra's Switch task:
 - 🔄 **Automated Backups** with CSI snapshots
@@ -13,21 +19,15 @@ This innovative workflow combines **5 different DR operations** into one smart w
 
 All controlled by a simple dropdown menu!
 
-## 🎯 Perfect for Hackathon Because:
 
-1. **Single File Simplicity** - Everything in one workflow file
-2. **Interactive UI** - Users select actions from dropdown
-3. **Visual Appeal** - Generates beautiful HTML reports and rich Slack messages
-4. **Real-World Value** - Solves critical K8s DR problem
-5. **Technical Innovation** - Shows advanced Kestra features
 
 ## 🚀 Quick Start
 
 ### 1. Prerequisites
-- Google Cloud account with billing enabled
+- Google Cloud account
 - gcloud CLI installed
 - A GCP project (we'll create everything else!)
-- Slack webhook (optional)
+- Slack webhook 
 
 ### 2. Complete Setup on Google Cloud
 Follow the comprehensive guide in `GCP-SETUP-GUIDE.md` which will help you:
@@ -74,13 +74,7 @@ The workflow generates stunning reports with inline CSS showing:
 ### Rich Slack Notifications
 Get instant updates with formatted messages showing backup status, test results, and alerts.
 
-## 🏆 Why This Wins
 
-1. **Solves Real Problem** - Every K8s user needs DR
-2. **Technical Excellence** - Shows mastery of Kestra features
-3. **User-Friendly** - Anyone can use it with the dropdown
-4. **Production-Ready** - Actually works in real environments
-5. **Creative Design** - Single workflow doing 5 different jobs
 
 ## 🎨 Customization
 
@@ -110,8 +104,7 @@ tasks:
       report: [...]
 ```
 
-## 🚨 Demo Script for Judges
-
+## 🚨 Demo Script
 1. **Show the Problem**: "K8s disasters happen - data loss is costly"
 2. **Present Solution**: "One workflow handles everything"
 3. **Live Demo**: 
@@ -123,4 +116,4 @@ tasks:
 
 ---
 
-**Built for Kestra Hackathon** 🏆 Good luck!
+🚀 **Built for WeMakeDevs x Kestra Hackweeks** 
